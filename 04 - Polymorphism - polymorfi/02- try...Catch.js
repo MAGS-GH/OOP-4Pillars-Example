@@ -18,4 +18,13 @@ class Animals {
   const myCat = new Cat();
   
   myCat.speak(); 
-  myDog.speak();
+  try {
+    myCat.speak();
+  } catch (Error) {
+    console.log("Hejsa")
+  }
+  try {
+    myDog.speak();
+  } catch (Error) {
+    console.log("Hejsa")
+  }

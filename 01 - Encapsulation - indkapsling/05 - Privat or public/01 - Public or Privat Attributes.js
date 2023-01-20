@@ -22,4 +22,4 @@ class Person {
 
     summers.introduceSelf(); 
     summers.isAnAdultStudent(); 
-    console.log(summers.#age)
+    //console.log(summers.#age)
