@@ -12,8 +12,8 @@ class Animal {
         }
     }
     class Dog extends Animal {
-        constructor(breed){
-            super(breed)
+        constructor(name, color, height, weight, sound, breed){
+            super(name, color, height, weight, sound)
             this.breed = breed
         }
         come() {

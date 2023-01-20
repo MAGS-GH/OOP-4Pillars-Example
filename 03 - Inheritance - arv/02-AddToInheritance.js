@@ -11,17 +11,13 @@ class Animal {
         }
     }
     class Dog extends Animal {
-        constructor(breed){
-            super(breed)
-            this.breed = breed
-        }
         come() {
             console.log(`${this.name} ran to you and says ${this.sound}`);
         }
     }
     let animal1 = new Animal("Booby","Brown","17 in","24 pounds","Woof Woof")
     animal1.speak();
-    animal1.come();
     let dog1 = new Dog("Booby","Brown","17 in","24 pounds","Woof Woof","Big Dane")
     dog1.speak();
     dog1.come();
+    animal1.come();
