@@ -26,5 +26,5 @@ class Animals {
   try {
     myDog.speak();
   } catch (Error) {
-    console.log("Hejsa")
+    console.log("There is an error" + Error)
   }
