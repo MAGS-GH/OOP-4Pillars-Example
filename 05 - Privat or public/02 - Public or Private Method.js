@@ -12,4 +12,4 @@ class Example {
   
   myExample.somePublicMethod()
   
-  myExample.#somePrivateMethod()
+  //myExample.#somePrivateMethod()
